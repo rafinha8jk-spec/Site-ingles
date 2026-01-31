@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aprenda Inglês Fácil</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background: #2563eb;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #1e40af;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    h2 {
+      color: #2563eb;
+    }
+    .exercise {
+      background: #eef2ff;
+      padding: 15px;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+      font-size: 14px;
+      color: #666;
+    }
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aprenda Inglês Fácil</h1>
+    <p>Inglês simples, direto e prático</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#licoes">Lições</a>
+    <a href="#exercicios">Exercícios</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Bem-vindo 👋</h2>
+    <p>Este site foi criado para ajudar você a aprender inglês do zero, com lições simples e exercícios práticos.</p>
+  </section>
+
+  <section id="licoes">
+    <h2>Lição 1 – Cumprimentos</h2>
+    <ul>
+      <li><strong>Hello</strong> – Olá</li>
+      <li><strong>Good morning</strong> – Bom dia</li>
+      <li><strong>Good afternoon</strong> – Boa tarde</li>
+      <li><strong>Good night</strong> – Boa noite</li>
+    </ul>
+  </section>
+
+  <section id="exercicios">
+    <h2>Exercício</h2>
+    <div class="exercise">
+      <p>Como se diz "Bom dia" em inglês?</p>
+      <button onclick="alert('Resposta correta: Good morning!')">Ver resposta</button>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Quer falar comigo ou sugerir uma lição?</p>
+    <p>Email: contato@aprendainglesfacil.com</p>
+  </section>
+
+  <footer>
+    © 2026 – Aprenda Inglês Fácil
+  </footer>
+</body>
+</html>
